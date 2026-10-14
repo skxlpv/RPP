@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dfdxj60mr6uhf"]
+
+[ext_resource type="Texture2D" uid="uid://blr312k4iw6ky" path="res://models/textures/common_raccoon_body_common_grey_dif.ddsc.D.png" id="1_7kies"]
+
+[resource]
+resource_name = "Raccoon_Body"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_7kies")
+emission_enabled = true

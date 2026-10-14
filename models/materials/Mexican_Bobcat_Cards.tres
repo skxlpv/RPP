@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c6o2sfe6oa383"]
+
+[ext_resource type="Texture2D" uid="uid://bj3ihqabe3ofc" path="res://models/textures/mexican_bobcat_cards_alpha_albino_dif.ddsc.png" id="1_whr86"]
+
+[resource]
+resource_name = "Mexican_Bobcat_Cards"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_whr86")
+emission_enabled = true
