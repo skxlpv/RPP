@@ -31,8 +31,23 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 "
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s1fef"]
+size = Vector2(1248, 28)
+
 [node name="LevelOne" type="Node2D" unique_id=699396541]
 
 [node name="Player" parent="." unique_id=1056903545 instance=ExtResource("1_03iei")]
 position = Vector2(581, 187)
 script = SubResource("GDScript_03iei")
+
+[node name="Floor" type="StaticBody2D" parent="." unique_id=834504443]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor" unique_id=974606108]
+position = Vector2(600, 500)
+shape = SubResource("RectangleShape2D_s1fef")
+
+[node name="ColorRect" type="ColorRect" parent="Floor/CollisionShape2D" unique_id=752522523]
+offset_left = -628.0
+offset_top = -14.0
+offset_right = 626.0
+offset_bottom = 26.0
