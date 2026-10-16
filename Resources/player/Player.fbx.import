@@ -1,15 +1,15 @@
 [remap]
 
-importer="animation_library"
+importer="scene"
 importer_version=1
-type="AnimationLibrary"
-uid="uid://xc0kybasbju3"
-path="res://.godot/imported/idle.fbx-1ea80bb326526819f6a1056096232755.res"
+type="PackedScene"
+uid="uid://cecf1cladqepr"
+path="res://.godot/imported/Player.fbx-0fe2ff651174334e5ad0364da8840422.scn"
 
 [deps]
 
-source_file="res://animations/idle.fbx"
-dest_files=["res://.godot/imported/idle.fbx-1ea80bb326526819f6a1056096232755.res"]
+source_file="res://Resources/player/Player.fbx"
+dest_files=["res://.godot/imported/Player.fbx-0fe2ff651174334e5ad0364da8840422.scn"]
 
 [params]
 

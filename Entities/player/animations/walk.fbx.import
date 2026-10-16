@@ -3,13 +3,13 @@
 importer="animation_library"
 importer_version=1
 type="AnimationLibrary"
-uid="uid://boix02ipojrjx"
-path="res://.godot/imported/jump_runnin.fbx-2ebab48d2fe724e03652d10f5807d1a1.res"
+uid="uid://djjb306wu3gu3"
+path="res://.godot/imported/walk.fbx-cf70024671a31d7cb2779814ab4c30dc.res"
 
 [deps]
 
-source_file="res://animations/jump_runnin.fbx"
-dest_files=["res://.godot/imported/jump_runnin.fbx-2ebab48d2fe724e03652d10f5807d1a1.res"]
+source_file="res://Entities/player/animations/walk.fbx"
+dest_files=["res://.godot/imported/walk.fbx-cf70024671a31d7cb2779814ab4c30dc.res"]
 
 [params]
 
@@ -46,7 +46,7 @@ _subresources={
 "save_to_file/fallback_path": "",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "",
-"settings/loop_mode": 0,
+"settings/loop_mode": 1,
 "slice_1/end_frame": 0,
 "slice_1/loop_mode": 0,
 "slice_1/name": "",

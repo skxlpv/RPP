@@ -1,16 +1,16 @@
 [gd_scene format=3 uid="uid://bpj612svclytw"]
 
-[ext_resource type="PackedScene" uid="uid://bgvdus4iehy2a" path="res://scenes/player.scn" id="1_03iei"]
-[ext_resource type="Script" uid="uid://dtj7i1815hjpk" path="res://scripts/player_movement.gd" id="2_sn7cj"]
+[ext_resource type="PackedScene" uid="uid://bgvdus4iehy2a" path="res://Entities/player/player.scn" id="1_21k0h"]
+[ext_resource type="Script" uid="uid://dtj7i1815hjpk" path="res://Entities/player/player.gd" id="2_21k0h"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s1fef"]
 size = Vector2(1248, 28)
 
 [node name="LevelOne" type="Node2D" unique_id=699396541]
 
-[node name="Player" parent="." unique_id=1056903545 instance=ExtResource("1_03iei")]
+[node name="Player" parent="." unique_id=1056903545 instance=ExtResource("1_21k0h")]
 position = Vector2(581, 187)
-script = ExtResource("2_sn7cj")
+script = ExtResource("2_21k0h")
 
 [node name="Floor" type="StaticBody2D" parent="." unique_id=834504443]
 
